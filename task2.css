@@ -1,0 +1,11 @@
+*{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.back-to-main{
+    display: block;
+    margin: 20px;
+    width: max-content;
+}
