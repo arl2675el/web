@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+}
+.gallery{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.gallery img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 200px;
+
+}
+
+.images img{
+    opacity: 0.3;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.images img:hover{
+    opacity: 1;
+}
